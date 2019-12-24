@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B145ECC1E3503690063A471 /* contacts_fb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C1321DCE9C490074EE0E /* contacts_fb.swift */; };
-		0B57C1291DCE98F00074EE0E /* FlatBuffersReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA0E86A1C32B6AD00B896B7 /* FlatBuffersReader.swift */; };
 		0B57C12B1DCE99650074EE0E /* BuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C12A1DCE99650074EE0E /* BuilderTest.swift */; };
 		0B57C12D1DCE9A2D0074EE0E /* FBReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C12C1DCE9A2D0074EE0E /* FBReaderTest.swift */; };
 		0B57C12F1DCE9AA80074EE0E /* contacts.fbs in Resources */ = {isa = PBXBuildFile; fileRef = 0B57C12E1DCE9AA80074EE0E /* contacts.fbs */; };
@@ -16,20 +15,8 @@
 		0B57C1351DCE9C490074EE0E /* friends_fb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C1331DCE9C490074EE0E /* friends_fb.swift */; };
 		0B57C1371DCE9C970074EE0E /* ContactsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C1361DCE9C970074EE0E /* ContactsTest.swift */; };
 		0B57C1391DCE9CF80074EE0E /* FriendsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C1381DCE9CF80074EE0E /* FriendsTest.swift */; };
-		0B62C1F31C43F6A2002500FE /* FlatBuffersBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62C1F01C43F1CD002500FE /* FlatBuffersBuilder.swift */; };
-		0BA0E8491C32B62200B896B7 /* FlatBuffersSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA0E8481C32B62200B896B7 /* FlatBuffersSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BE327781CD69BA00067DAC8 /* FlatBuffersSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA0E8451C32B62200B896B7 /* FlatBuffersSwift.framework */; };
+		7DD0756A23B2905400BD39EC /* FlatbuffersSwift_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD0756823B2905400BD39EC /* FlatbuffersSwift_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0BA0E8511C32B62200B896B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0BA0E83C1C32B62200B896B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BA0E8441C32B62200B896B7;
-			remoteInfo = FlatBuffersSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0B57C12A1DCE99650074EE0E /* BuilderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuilderTest.swift; sourceTree = "<group>"; };
@@ -41,12 +28,18 @@
 		0B57C1361DCE9C970074EE0E /* ContactsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTest.swift; sourceTree = "<group>"; };
 		0B57C1381DCE9CF80074EE0E /* FriendsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTest.swift; sourceTree = "<group>"; };
 		0B62C1F01C43F1CD002500FE /* FlatBuffersBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatBuffersBuilder.swift; sourceTree = "<group>"; };
-		0BA0E8451C32B62200B896B7 /* FlatBuffersSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlatBuffersSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA0E8481C32B62200B896B7 /* FlatBuffersSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlatBuffersSwift.h; sourceTree = "<group>"; };
-		0BA0E84A1C32B62200B896B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BA0E84F1C32B62200B896B7 /* FlatBuffersSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlatBuffersSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA0E8561C32B62200B896B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BA0E86A1C32B6AD00B896B7 /* FlatBuffersReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatBuffersReader.swift; sourceTree = "<group>"; };
+		7DD0755923B28FD200BD39EC /* FlatbuffersSwift-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FlatbuffersSwift-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD0755B23B28FD300BD39EC /* FlatbuffersSwift_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlatbuffersSwift_iOS.h; sourceTree = "<group>"; };
+		7DD0755C23B28FD300BD39EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD0756623B2905400BD39EC /* FlatbuffersSwift-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FlatbuffersSwift-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD0756823B2905400BD39EC /* FlatbuffersSwift_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlatbuffersSwift_tvOS.h; sourceTree = "<group>"; };
+		7DD0756923B2905400BD39EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD0757223B2909F00BD39EC /* FlatbuffersSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlatbuffersSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD0757823B2916400BD39EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85EE88611CDE83E00030231F /* generate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate.sh; sourceTree = SOURCE_ROOT; };
 		85EE88621CDE84640030231F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		85EE887C1CE5128E0030231F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -54,18 +47,31 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BA0E8411C32B62200B896B7 /* Frameworks */ = {
+		0BA0E84C1C32B62200B896B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BA0E84C1C32B62200B896B7 /* Frameworks */ = {
+		7DD0755623B28FD200BD39EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BE327781CD69BA00067DAC8 /* FlatBuffersSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD0756323B2905400BD39EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD0756F23B2909F00BD39EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +91,10 @@
 		0BA0E8461C32B62200B896B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BA0E8451C32B62200B896B7 /* FlatBuffersSwift.framework */,
 				0BA0E84F1C32B62200B896B7 /* FlatBuffersSwiftTests.xctest */,
+				7DD0755923B28FD200BD39EC /* FlatbuffersSwift-iOS.framework */,
+				7DD0756623B2905400BD39EC /* FlatbuffersSwift-tvOS.framework */,
+				7DD0757223B2909F00BD39EC /* FlatbuffersSwift.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +102,8 @@
 		0BA0E8471C32B62200B896B7 /* FlatBuffersSwift */ = {
 			isa = PBXGroup;
 			children = (
-				0B62C1F01C43F1CD002500FE /* FlatBuffersBuilder.swift */,
-				0BA0E86A1C32B6AD00B896B7 /* FlatBuffersReader.swift */,
-				0BA0E8481C32B62200B896B7 /* FlatBuffersSwift.h */,
-				0BA0E84A1C32B62200B896B7 /* Info.plist */,
+				7DD0755023B28F8100BD39EC /* Assets */,
+				7DD0754F23B28F7900BD39EC /* Sources */,
 			);
 			path = FlatBuffersSwift;
 			sourceTree = "<group>";
@@ -118,6 +124,52 @@
 			path = FlatBuffersSwiftTests;
 			sourceTree = "<group>";
 		};
+		7DD0754F23B28F7900BD39EC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0B62C1F01C43F1CD002500FE /* FlatBuffersBuilder.swift */,
+				0BA0E86A1C32B6AD00B896B7 /* FlatBuffersReader.swift */,
+				7DD0755B23B28FD300BD39EC /* FlatbuffersSwift_iOS.h */,
+				7DD0756823B2905400BD39EC /* FlatbuffersSwift_tvOS.h */,
+				0BA0E8481C32B62200B896B7 /* FlatBuffersSwift.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7DD0755023B28F8100BD39EC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7DD0755123B28F8600BD39EC /* iOS */,
+				7DD0755323B28F8F00BD39EC /* macOS */,
+				7DD0755223B28F8A00BD39EC /* tvOS */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7DD0755123B28F8600BD39EC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7DD0755C23B28FD300BD39EC /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		7DD0755223B28F8A00BD39EC /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7DD0756923B2905400BD39EC /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		7DD0755323B28F8F00BD39EC /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7DD0757823B2916400BD39EC /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		85EE885C1CDE830A0030231F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,35 +185,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BA0E8421C32B62200B896B7 /* Headers */ = {
+		7DD0755423B28FD200BD39EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BA0E8491C32B62200B896B7 /* FlatBuffersSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD0756123B2905400BD39EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD0756A23B2905400BD39EC /* FlatbuffersSwift_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BA0E8441C32B62200B896B7 /* FlatBuffersSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BA0E8591C32B62200B896B7 /* Build configuration list for PBXNativeTarget "FlatBuffersSwift" */;
-			buildPhases = (
-				0BA0E8401C32B62200B896B7 /* Sources */,
-				0BA0E8411C32B62200B896B7 /* Frameworks */,
-				0BA0E8421C32B62200B896B7 /* Headers */,
-				0BA0E8431C32B62200B896B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FlatBuffersSwift;
-			productName = FlatBuffersSwift;
-			productReference = 0BA0E8451C32B62200B896B7 /* FlatBuffersSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		0BA0E84E1C32B62200B896B7 /* FlatBuffersSwiftTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BA0E85C1C32B62200B896B7 /* Build configuration list for PBXNativeTarget "FlatBuffersSwiftTests" */;
@@ -173,12 +214,64 @@
 			buildRules = (
 			);
 			dependencies = (
-				0BA0E8521C32B62200B896B7 /* PBXTargetDependency */,
 			);
 			name = FlatBuffersSwiftTests;
 			productName = FlatBuffersSwiftTests;
 			productReference = 0BA0E84F1C32B62200B896B7 /* FlatBuffersSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DD0755823B28FD200BD39EC /* FlatbuffersSwift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD0755E23B28FD300BD39EC /* Build configuration list for PBXNativeTarget "FlatbuffersSwift-iOS" */;
+			buildPhases = (
+				7DD0755423B28FD200BD39EC /* Headers */,
+				7DD0755523B28FD200BD39EC /* Sources */,
+				7DD0755623B28FD200BD39EC /* Frameworks */,
+				7DD0755723B28FD200BD39EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlatbuffersSwift-iOS";
+			productName = "FlatbuffersSwift-iOS";
+			productReference = 7DD0755923B28FD200BD39EC /* FlatbuffersSwift-iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DD0756523B2905400BD39EC /* FlatbuffersSwift-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD0756B23B2905400BD39EC /* Build configuration list for PBXNativeTarget "FlatbuffersSwift-tvOS" */;
+			buildPhases = (
+				7DD0756123B2905400BD39EC /* Headers */,
+				7DD0756223B2905400BD39EC /* Sources */,
+				7DD0756323B2905400BD39EC /* Frameworks */,
+				7DD0756423B2905400BD39EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlatbuffersSwift-tvOS";
+			productName = "FlatbuffersSwift-tvOS";
+			productReference = 7DD0756623B2905400BD39EC /* FlatbuffersSwift-tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DD0757123B2909F00BD39EC /* FlatbuffersSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD0757523B2909F00BD39EC /* Build configuration list for PBXNativeTarget "FlatbuffersSwift" */;
+			buildPhases = (
+				7DD0756E23B2909F00BD39EC /* Sources */,
+				7DD0756F23B2909F00BD39EC /* Frameworks */,
+				7DD0757023B2909F00BD39EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlatbuffersSwift;
+			productName = FlatbuffersSwift;
+			productReference = 7DD0757223B2909F00BD39EC /* FlatbuffersSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,45 +280,52 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = maxim.zaks;
 				TargetAttributes = {
-					0BA0E8441C32B62200B896B7 = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0940;
-					};
 					0BA0E84E1C32B62200B896B7 = {
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 0940;
+					};
+					7DD0755823B28FD200BD39EC = {
+						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = 3LBSALV4DX;
+						ProvisioningStyle = Manual;
+					};
+					7DD0756523B2905400BD39EC = {
+						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = 3LBSALV4DX;
+						ProvisioningStyle = Manual;
+					};
+					7DD0757123B2909F00BD39EC = {
+						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = 3LBSALV4DX;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 0BA0E83F1C32B62200B896B7 /* Build configuration list for PBXProject "FlatBuffersSwift" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0BA0E83B1C32B62200B896B7;
 			productRefGroup = 0BA0E8461C32B62200B896B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BA0E8441C32B62200B896B7 /* FlatBuffersSwift */,
+				7DD0755823B28FD200BD39EC /* FlatbuffersSwift-iOS */,
+				7DD0756523B2905400BD39EC /* FlatbuffersSwift-tvOS */,
+				7DD0757123B2909F00BD39EC /* FlatbuffersSwift */,
 				0BA0E84E1C32B62200B896B7 /* FlatBuffersSwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BA0E8431C32B62200B896B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0BA0E84D1C32B62200B896B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,18 +335,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0BA0E8401C32B62200B896B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		7DD0755723B28FD200BD39EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B57C1291DCE98F00074EE0E /* FlatBuffersReader.swift in Sources */,
-				0B62C1F31C43F6A2002500FE /* FlatBuffersBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DD0756423B2905400BD39EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD0757023B2909F00BD39EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		0BA0E84B1C32B62200B896B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,21 +372,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0BA0E8521C32B62200B896B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0BA0E8441C32B62200B896B7 /* FlatBuffersSwift */;
-			targetProxy = 0BA0E8511C32B62200B896B7 /* PBXContainerItemProxy */;
+		7DD0755523B28FD200BD39EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXTargetDependency section */
+		7DD0756223B2905400BD39EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD0756E23B2909F00BD39EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		0BA0E8571C32B62200B896B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -318,7 +444,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -332,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -369,63 +497,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0BA0E85A1C32B62200B896B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_USE_OPTIMIZATION_PROFILE = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = FlatBuffersSwift/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.zaks.FlatBuffersSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		0BA0E85B1C32B62200B896B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_USE_OPTIMIZATION_PROFILE = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_OPTIMIZATION_LEVEL = s;
-				INFOPLIST_FILE = FlatBuffersSwift/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.zaks.FlatBuffersSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -458,6 +536,193 @@
 			};
 			name = Release;
 		};
+		7DD0755F23B28FD300BD39EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3LBSALV4DX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FlatbuffersSwift/Assets/iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gx42.FlatbuffersSwift-iOS";
+				PRODUCT_NAME = "FlatbuffersSwift-iOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DD0756023B28FD300BD39EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3LBSALV4DX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FlatbuffersSwift/Assets/iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gx42.FlatbuffersSwift-iOS";
+				PRODUCT_NAME = "FlatbuffersSwift-iOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DD0756C23B2905400BD39EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3LBSALV4DX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FlatbuffersSwift/Assets/tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gx42.FlatbuffersSwift-tvOS";
+				PRODUCT_NAME = "FlatbuffersSwift-tvOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		7DD0756D23B2905400BD39EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3LBSALV4DX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FlatbuffersSwift/Assets/tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gx42.FlatbuffersSwift-tvOS";
+				PRODUCT_NAME = "FlatbuffersSwift-tvOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DD0757623B2909F00BD39EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3LBSALV4DX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FlatbuffersSwift/Assets/macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gx42.FlatbuffersSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7DD0757723B2909F00BD39EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3LBSALV4DX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FlatbuffersSwift/Assets/macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gx42.FlatbuffersSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -470,20 +735,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BA0E8591C32B62200B896B7 /* Build configuration list for PBXNativeTarget "FlatBuffersSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BA0E85A1C32B62200B896B7 /* Debug */,
-				0BA0E85B1C32B62200B896B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0BA0E85C1C32B62200B896B7 /* Build configuration list for PBXNativeTarget "FlatBuffersSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BA0E85D1C32B62200B896B7 /* Debug */,
 				0BA0E85E1C32B62200B896B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD0755E23B28FD300BD39EC /* Build configuration list for PBXNativeTarget "FlatbuffersSwift-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD0755F23B28FD300BD39EC /* Debug */,
+				7DD0756023B28FD300BD39EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD0756B23B2905400BD39EC /* Build configuration list for PBXNativeTarget "FlatbuffersSwift-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD0756C23B2905400BD39EC /* Debug */,
+				7DD0756D23B2905400BD39EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD0757523B2909F00BD39EC /* Build configuration list for PBXNativeTarget "FlatbuffersSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD0757623B2909F00BD39EC /* Debug */,
+				7DD0757723B2909F00BD39EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
