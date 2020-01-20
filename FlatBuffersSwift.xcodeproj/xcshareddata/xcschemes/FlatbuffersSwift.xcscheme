@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7DD0757123B2909F00BD39EC"
-               BuildableName = "FlatbuffersSwift.bundle"
+               BlueprintIdentifier = "7D6741F523BAC047009F631B"
+               BuildableName = "libFlatbuffersSwift.a"
                BlueprintName = "FlatbuffersSwift"
                ReferencedContainer = "container:FlatBuffersSwift.xcodeproj">
             </BuildableReference>
@@ -50,8 +50,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7DD0757123B2909F00BD39EC"
-            BuildableName = "FlatbuffersSwift.bundle"
+            BlueprintIdentifier = "7D6741F523BAC047009F631B"
+            BuildableName = "libFlatbuffersSwift.a"
             BlueprintName = "FlatbuffersSwift"
             ReferencedContainer = "container:FlatBuffersSwift.xcodeproj">
          </BuildableReference>
